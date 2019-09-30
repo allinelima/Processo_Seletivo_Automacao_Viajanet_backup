@@ -1,0 +1,6 @@
+---
+  default: -p pontinho -p html #-p retry
+  html: --format html --out=log/features.html
+  bdd: --format progress
+  pontinho: --format pretty
+  #retry: --retry 2
